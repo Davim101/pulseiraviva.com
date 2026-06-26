@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Pulseira Viva</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght=300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Pulseira Viva</h1>
+  <p>Uma tecnologia criada para ajudar pessoas com Parkinson</p>
+</header>
+
+<section class="cards">
+  <div class="card" onclick="openPopup('autores')">
+    <img src="grupo.png">
+    <div class="card-content">
+      <h2>Autores</h2>
+      <p>Conheça os alunos responsáveis pelo projeto.</p>
+    </div>
+  </div>
+
+  <div class="card" onclick="openPopup('projeto')">
+    <img src="projeto.jfif">
+    <div class="card-content">
+      <h2>Projeto</h2>
+      <p>Saiba como funciona a Pulseira Viva.</p>
+    </div>
+  </div>
+
+  <div class="card" onclick="openPopup('producao')">
+    <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1200&auto=format&fit=crop">
+    <div class="card-content">
+      <h2>Produção</h2>
+      <p>Veja como o projeto foi desenvolvido.</p>
+    </div>
+  </div>
+
+  <div class="card" onclick="openPopup('objetivo')">
+    <img src="https://priscilapisoligeriatra.com.br/wp-content/uploads/2023/04/doenca-de-parkinson-causas-sintomas-tratamentos.webp">
+    <div class="card-content">
+      <h2>Objetivo</h2>
+      <p>Entenda o principal objetivo da invenção.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="text-box">
+    <h2>Tecnologia Microbit</h2>
+    <p>O projeto é feito com base no microbit para detectar quantas vezes a pessoas afetada tem atividades de parkingson para encontrar um padrao e tentar diminui-las.</p>
+    <p>A pulseira registra movimentos importantes e ajuda no acompanhamento diário das pessoas afetadas pela doença.</p>
+  </div>
+  <div class="image-box">
+    <img src="https://images.unsplash.com/photo-1581092921461-eab62e97a780?q=80&w=1200&auto=format&fit=crop">
+  </div>
+</section>
+
+<section class="section">
+  <div class="image-box">
+    <img src="https://doutorcerebro.com.br/wp-content/uploads/2019/07/parkinson-braak.jpg">
+  </div>
+  <div class="text-box">
+    <h2>Impacto Social</h2>
+    <p>Muitas pessoas convivem diariamente com dificuldades causadas pelo Parkinson. Tremores, dificuldades de equilíbrio e limitações motoras acabam afetando não apenas os pacientes, mas também familiares e cuidadores.</p>
+    <p>A Pulseira Viva foi criada para trazer mais segurança e auxiliar no acompanhamento dessas pessoas através da tecnologia. O sistema permite registrar padrões de movimentos e ajudar na identificação de momentos críticos.</p>
+    <p>Além do auxílio médico, o projeto também busca aumentar a independência dos pacientes, oferecendo uma solução simples, acessível e fácil de utilizar no dia a dia.</p>
+    <p>Nosso objetivo é mostrar que a tecnologia pode ser usada de forma humana, aproximando inovação e cuidado para melhorar a qualidade de vida das pessoas.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="text-box">
+    <h2>Curiosidades sobre o Parkinson</h2>
+    <p>O Parkinson foi descrito pela primeira vez em 1817 pelo médico inglês James Parkinson em seu ensaio "An Essay on the Shaking Palsy". A doença afeta cerca de 4 milhões de pessoas no mundo.</p>
+    <p>Os principais sintomas incluem tremores em repouso, lentidão de movimentos (bradicinesia), rigidez muscular e alterações no equilíbrio. Cada paciente apresenta um padrão único de sintomas.</p>
+  </div>
+  <div class="image-box">
+    <img src="https://img.magnific.com/vetores-gratis/trabalhador-com-duvidas_1012-193.jpg?semt=ais_hybrid&w=740&q=80">
+  </div>
+</section>
+
+<section class="section">
+  <div class="image-box">
+    <img src="https://profisio.com.br/wp-content/uploads/2020/02/Avaliac%CC%A7a%CC%83o-do-Paciente-com-Parkinson.png">
+  </div>
+  <div class="text-box">
+    <h2>Informações externas</h2>
+    <p>O que é Parkinson?
+A doença de Parkinson é uma condição que afeta o sistema nervoso central (região do cérebro encarregada de receber e processar informações), principalmente o sistema motor, responsável por controlar os movimentos do corpo.
+
+O Parkinson é causado pela redução progressiva da produção de dopamina, uma molécula cerebral que responsável por controlar os movimentos como andar, escrever e falar. É a segunda doença neurodegenerativa (quando os neurônios se deterioram) mais comum no mundo, e afeta cerca de 11 milhões de pessoas.
+
+Sintomas
+Os principais sintomas relacionados ao movimento do corpo incluem:
+
+bradicinesia: é a diminuição da velocidade e amplitude dos movimentos, que resulta em lentidão geral nas atividades motoras
+tremores: são involuntários, geralmente nas mãos ou nos dedos, e tipicamente ocorrem durante o repouso
+rigidez muscular: esse sintoma torna os movimentos mais lentos e difíceis
+instabilidade postural: pode haver dificuldade em manter o equilíbrio e a postura, o que pode levar a quedas</p>
+  </div>
+</section>
+
+<footer>
+  <p>Pulseira Viva © 2026 • Projeto escolar</p>
+</footer>
+
+<div class="popup" id="popup">
+  <div class="popup-box">
+    <span class="close" onclick="closePopup()">&times;</span>
+    <img id="popup-img" src="">
+    <h2 id="popup-title"></h2>
+    <p id="popup-text"></p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

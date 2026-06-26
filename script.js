@@ -2,12 +2,12 @@
 const data = {
   autores: {
     title: "Autores",
-    img: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1200&auto=format&fit=crop",
+    img: "grupo.png",
     text: `Nosso grupo formado por; Davi Mocelin, Nicolas Zaupa, Daniel Binotto, João Vitor e Miguel Rodrigues, Quatro alunos do ensino medio do colegio sao jose juntos para uma intervencao a favor das pessoas com parkingson.`
   },
   projeto: {
     title: "Projeto",
-    img: "https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?q=80&w=1200&auto=format&fit=crop",
+    img: "projeto.jfif",
     text: `A Pulseira Viva é uma pulseira inteligente criada para monitorar atividades relacionadas ao Parkinson e ajudar no acompanhamento das pessoas afetadas.
 
 Futuro do Projeto:
@@ -43,7 +43,7 @@ Registro do processo para futura replicação.`
   },
   objetivo: {
     title: "Objetivo",
-    img: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?q=80&w=1200&auto=format&fit=crop",
+    img: "https://priscilapisoligeriatra.com.br/wp-content/uploads/2023/04/doenca-de-parkinson-causas-sintomas-tratamentos.webp",
     text: `Auxiliar pessoas com Parkinson a monitorar seus sintomas de forma simples e acessível, contribuindo para um melhor entendimento da doença.
 
 Queremos demonstrar que jovens estudantes podem fazer a diferença na vida das pessoas através da tecnologia e inovação, criando soluções práticas para problemas reais.`

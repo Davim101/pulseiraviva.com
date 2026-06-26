@@ -3,6 +3,7 @@
   padding:0;
   box-sizing:border-box;
   font-family:'Poppins',sans-serif;
+  text-align: justify;
 }
 
 body{
@@ -21,11 +22,13 @@ header h1{
   font-size:3rem;
   color:#2563eb;
   margin-bottom:10px;
+  text-align: center;
 }
 
 header p{
   color:#64748b;
   font-size:1.1rem;
+  text-align: center;
 }
 
 .cards{
@@ -86,6 +89,7 @@ header p{
   color:#2563eb;
   margin-bottom:20px;
   font-size:2rem;
+  text-align: center;
 }
 
 .text-box p{
